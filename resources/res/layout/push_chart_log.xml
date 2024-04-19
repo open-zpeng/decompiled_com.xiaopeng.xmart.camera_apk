@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/push_chart_log" android:background="#f2ffffff" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/close_relative" android:layout_width="match_parent" android:layout_height="60dp">
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/clear" android:background="@drawable/shape_oval_black" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="20dp" android:text="clear"/>
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/stop" android:background="@drawable/shape_oval_black" android:layout_width="60dp" android:layout_height="40dp" android:layout_marginLeft="60dp" android:text="stop" android:layout_toRightOf="@+id/clear"/>
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/close" android:background="@drawable/background_oval" android:layout_width="40dp" android:layout_height="40dp" android:text="X" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/close_relative">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.alivc.debug.LineChartView android:id="@+id/pts" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="PTS"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.alivc.debug.LineChartView android:id="@+id/video_fps" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Video FPS"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.alivc.debug.LineChartView android:id="@+id/audio_fps" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Audio FPS"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.alivc.debug.LineChartView android:id="@+id/video_bitrate" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Video Bitrate"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+                <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.alivc.debug.LineChartView android:id="@+id/audio_bitrate" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </HorizontalScrollView>
+                <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Audio Bitrate"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

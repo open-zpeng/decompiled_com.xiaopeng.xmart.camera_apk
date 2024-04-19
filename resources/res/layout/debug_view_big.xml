@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/big_window_layout" android:background="@android:color/white" android:padding="10dp" android:layout_width="250dp" android:layout_height="wrap_content">
+    <Button android:layout_gravity="center_horizontal" android:id="@+id/close" android:visibility="gone" android:layout_width="100dp" android:layout_height="40dp" android:layout_marginTop="12dp" android:text="关闭悬浮窗"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/back" android:background="@android:color/black" android:layout_width="40dp" android:layout_height="20dp" android:text="X" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/preview_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="直播测试" android:maxLines="2" android:layout_weight="0.3"/>
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/push_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="当前" android:maxLines="2" android:layout_weight="0.3"/>
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/opera_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="变化" android:maxLines="2" android:layout_weight="0.3"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="match_parent" android:text="CPU(%)" android:maxLines="2" android:layout_weight="1"/>
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/current_cpu" android:layout_width="match_parent" android:layout_height="match_parent" android:text="0" android:maxLines="2" android:layout_weight="1"/>
+        <TextView android:textColor="@android:color/holo_red_light" android:ellipsize="end" android:id="@+id/cpu_change" android:layout_width="match_parent" android:layout_height="match_parent" android:text="+0.00" android:maxLines="2" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="match_parent" android:text="MEM(MB)" android:maxLines="2" android:layout_weight="1"/>
+        <TextView android:textColor="@android:color/black" android:ellipsize="end" android:id="@+id/current_mem" android:layout_width="match_parent" android:layout_height="match_parent" android:text="0" android:maxLines="2" android:layout_weight="1"/>
+        <TextView android:textColor="@android:color/holo_red_light" android:ellipsize="end" android:id="@+id/mem_change" android:layout_width="match_parent" android:layout_height="match_parent" android:text="+0.00" android:maxLines="2" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/log_check" android:background="@drawable/shape_rect_black" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="日志查看"/>
+    <TextView android:textSize="12sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/data_list" android:background="@drawable/shape_rect_black" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="数据列表"/>
+    <TextView android:textSize="12sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/diagram_list" android:background="@drawable/shape_rect_black" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="图标调试"/>
+</LinearLayout>

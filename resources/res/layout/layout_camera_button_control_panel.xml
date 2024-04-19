@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/bg_camera_control_panel_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/btn_exit" android:layout_marginLeft="32dp" android:layout_marginTop="25dp" app:vuiMode="DISABLED" style="@style/XButton.Icon.Large.Close"/>
+    <com.xiaopeng.xmart.camera.view.controlpanel.CameraSwitchView android:id="@+id/view_camera_mode_switch" android:layout_width="100dp" android:layout_height="280dp" android:layout_marginLeft="22dp" android:layout_marginTop="165dp" app:vuiAction="SetValue|Click" app:vuiElementType="STATEFULBUTTON"/>
+    <com.xiaopeng.xmart.camera.view.controlpanel.CameraShutterView android:id="@+id/camera_shutter_view" android:visibility="visible" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="22dp" android:layout_marginTop="36dp" app:vuiAction="Click" app:vuiElementType="STATEFULBUTTON" app:vuiLabel="@string/vui_take_pic"/>
+    <com.xiaopeng.xmart.camera.view.controlpanel.CameraRecordShutterView android:id="@+id/camera_shutter_record_view" android:visibility="gone" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="22dp" android:layout_marginTop="36dp" app:vuiAction="SetValue" app:vuiElementType="STATEFULBUTTON"/>
+    <com.xiaopeng.xui.widget.XFrameLayout android:id="@+id/gallery_layout" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginLeft="32dp" android:layout_marginTop="175dp" app:vuiAction="Click" app:vuiDisableHitEffect="true" app:vuiElementType="BUTTON" app:vuiLabel="@string/vui_gallery">
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/gallery_entrance" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" app:vuiMode="DISABLED"/>
+    </com.xiaopeng.xui.widget.XFrameLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

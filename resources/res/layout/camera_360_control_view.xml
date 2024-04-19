@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaopeng.xui.widget.XFrameLayout android:layout_gravity="center" android:id="@+id/camera_direction_switch" android:layout_width="580dp" android:layout_height="580dp" app:vuiElementType="STATEFULBUTTON">
+        <ImageView android:layout_gravity="top|center_horizontal" android:id="@+id/camera_front" android:paddingLeft="100dp" android:paddingRight="100dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/camera_left" android:paddingTop="100dp" android:paddingBottom="100dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/camera_right" android:paddingTop="100dp" android:paddingBottom="100dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0dp"/>
+        <ImageView android:layout_gravity="bottom|center_horizontal" android:id="@+id/camera_back" android:paddingLeft="100dp" android:paddingRight="100dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0dp"/>
+    </com.xiaopeng.xui.widget.XFrameLayout>
+    <com.xiaopeng.xmart.camera.speech.VuiRadio3DButton android:layout_gravity="end|top" android:id="@+id/pano_2d_3d_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="36dp" app:vuiMode="DISABLED"/>
+    <com.xiaopeng.xui.widget.XImageView android:layout_gravity="end|top" android:id="@+id/avm_360_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="104dp" android:layout_marginEnd="36dp" app:vuiAction="SetCheck" app:vuiElementType="SWITCH" app:vuiLabel="@string/vui_360_display_mode" app:vuiMode="NORMAL"/>
+</merge>

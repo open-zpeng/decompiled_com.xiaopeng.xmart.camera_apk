@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="342dp" android:layout_height="242dp">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/camera_direction_switch" android:layout_width="240dp" android:layout_height="240dp" android:src="@drawable/ic_camera_direction_centent" android:scaleType="fitXY" app:vuiMode="NORMAL"/>
+    <com.xiaopeng.xmart.camera.speech.VuiRadio3DButton android:id="@+id/camera_pano_switch_img" android:layout_width="76dp" android:layout_height="76dp" android:layout_marginLeft="82dp" android:layout_marginTop="82dp" android:src="@drawable/ic_camera_circular_2d" android:scaleType="fitXY" app:vuiMode="DISABLED"/>
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/camera_tranc" android:layout_width="76dp" android:layout_height="76dp" android:layout_marginLeft="266dp" android:src="@drawable/ic_mid_switch_360" android:scaleType="fitXY" app:vuiAction="SetCheck" app:vuiElementType="SWITCH" app:vuiLabel="@string/vui_360_display_mode" app:vuiMode="NORMAL"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_root" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <com.xiaopeng.xmart.camera.view.preview.GeneralCameraPreview android:id="@+id/camera_general_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/avm_controller_layout" android:layout="@layout/viewstub_avm_controller_view_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp" android:layout_marginStart="196dp"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

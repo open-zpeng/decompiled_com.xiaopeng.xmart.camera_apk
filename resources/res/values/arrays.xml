@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="avm_state_labels">
+        <item>@string/vui_rear_mode_labels</item>
+        <item>@string/vui_front_mode_labels</item>
+        <item>@string/vui_left_mode_labels</item>
+        <item>@string/vui_right_mode_labels</item>
+        <item>#</item>
+    </array>
+    <array name="record_state_labels">
+        <item>@string/vui_record_du</item>
+        <item>@string/vui_end_record</item>
+        <item>@string/vui_record</item>
+    </array>
+    <array name="template_photos">
+        <item>@string/shot_pic_filter_white_origin</item>
+        <item>@string/shot_pic_filter_white_black</item>
+        <item>@string/shot_pic_filter_beauty</item>
+        <item>@string/shot_pic_filter_rainforest</item>
+        <item>@string/shot_pic_filter_peach</item>
+        <item>@string/shot_pic_filter_mint</item>
+        <item>@string/shot_pic_filter_sunset</item>
+        <item>@string/shot_pic_filter_strawberry</item>
+        <item>@string/shot_pic_filter_cool</item>
+        <item>@string/shot_pic_filter_autumn</item>
+        <item>@string/shot_pic_filter_warm</item>
+        <item>@string/shot_pic_filter_japan</item>
+        <item>@string/shot_pic_filter_sun_light</item>
+        <item>@string/shot_pic_filter_quiet</item>
+        <item>@string/shot_pic_filter_small_cool</item>
+        <item>@string/shot_pic_filter_boat</item>
+        <item>@string/shot_pic_filter_north</item>
+        <item>@string/shot_pic_filter_pic</item>
+    </array>
+    <array name="template_records">
+        <item>@string/shot_pic_filter_white_origin</item>
+        <item>@string/ae_template_accelerate</item>
+        <item>@string/ae_template_movie</item>
+        <item>@string/ae_template_travel</item>
+        <item>@string/ae_template_general_city</item>
+        <item>@string/ae_template_general_panorama</item>
+        <item>@string/ae_template_general_mirror</item>
+        <item>@string/ae_template_general_time_lapse</item>
+        <item>@string/ae_template_general_reverse</item>
+        <item>@string/ae_template_general_slow</item>
+    </array>
+    <array name="x_quick_side_bar_letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </array>
+    <array name="xtab_icons">
+        <item>@drawable/ic_switch_photo_selector</item>
+        <item>@drawable/ic_switch_record_selector</item>
+    </array>
+    <array name="xtab_labels">
+        <item>@string/vui_switch_pic</item>
+        <item>@string/vui_switch_record</item>
+    </array>
+</resources>

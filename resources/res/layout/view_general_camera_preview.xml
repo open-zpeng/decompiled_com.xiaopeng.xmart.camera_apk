@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xmart.camera.view.preview.CameraSurfaceView android:id="@+id/camera_preview" android:layout_width="match_parent" android:layout_height="match_parent" app:vuiMode="DISABLED"/>
+    <ViewStub android:id="@+id/transparent_change_layout" android:layout="@layout/viewstub_preview_transparent_close_layout" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" style="@style/XButton.Icon.Large.Close"/>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/include_loading_view_layout"/>
+    <ViewStub android:layout_gravity="bottom|right" android:id="@+id/img_mid_mute_layout" android:layout="@layout/viewstub_preview_mid_mute_layout" android:layout_width="@dimen/ic_mute_layout_wh" android:layout_height="@dimen/ic_mute_layout_wh" android:layout_marginRight="@dimen/ic_mute_layout_rb" android:layout_marginBottom="@dimen/ic_mute_layout_rb"/>
+    <ViewStub android:layout_gravity="bottom|center_horizontal" android:id="@+id/record_time_layout" android:layout="@layout/viewstub_record_time_area_layout" android:layout_width="wrap_content" android:layout_height="@dimen/record_time_layout_h" android:layout_marginBottom="@dimen/record_time_layout_b"/>
+    <ViewStub android:layout_gravity="start|bottom" android:id="@+id/capture_thumb_layout" android:layout="@layout/viewstub_preview_thumb_layout" android:layout_width="@dimen/capture_thumb_layout_w" android:layout_height="@dimen/capture_thumb_layout_h" android:layout_marginBottom="@dimen/capture_thumb_layout_b" android:layout_marginStart="@dimen/capture_thumb_layout_s"/>
+    <ViewStub android:id="@+id/view_camera_preview_bg_layout" android:layout="@layout/viewstub_preview_white_bg_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

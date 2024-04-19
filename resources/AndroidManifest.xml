@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="70010" android:versionName="V1.6.0_20230913160447_Release" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" coreApp="true" package="com.xiaopeng.xmart.camera" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.car.permission.CAR_MILEAGE"/>
+    <uses-permission android:name="android.car.permission.CAR_ENERGY"/>
+    <uses-permission android:name="android.car.permission.CAR_IDENTIFICATION"/>
+    <uses-permission android:name="android.car.permission.CAR_SPEED"/>
+    <uses-permission android:name="android.car.permission.CAR_DYNAMICS_STATE"/>
+    <uses-permission android:name="android.car.permission.CAR_ENERGY_PORTS"/>
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_LIGHTS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_EXTERIOR_LIGHTS"/>
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_VOLUME"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.car.permission.CAR_NAVIGATION_MANAGER"/>
+    <uses-permission android:name="android.car.permission.CAR_INSTRUMENT_CLUSTER_CONTROL"/>
+    <uses-permission android:name="android.car.permission.CAR_DISPLAY_IN_CLUSTER"/>
+    <uses-permission android:name="android.car.permission.CAR_INFO"/>
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_ENVIRONMENT"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
+    <uses-permission android:name="android.car.permission.CONTROL_APP_BLOCKING"/>
+    <uses-permission android:name="android.car.permission.ADJUST_CAR_CABIN"/>
+    <uses-permission android:name="android.car.permission.CAR_ENGINE_DETAILED"/>
+    <uses-permission android:name="android.car.permission.CAR_TIRES"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_DOORS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_WINDOWS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_SEATS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_MIRRORS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_CLIMATE"/>
+    <uses-permission android:name="android.car.permission.CAR_POWER"/>
+    <uses-permission android:name="android.car.permission.CAR_PROJECTION"/>
+    <uses-permission android:name="android.car.permission.CAR_MOCK_VEHICLE_HAL"/>
+    <uses-permission android:name="android.car.permission.CAR_TEST_SERVICE"/>
+    <uses-permission android:name="android.car.permission.CAR_DRIVING_STATE"/>
+    <uses-permission android:name="android.car.permission.VMS_PUBLISHER"/>
+    <uses-permission android:name="android.car.permission.VMS_SUBSCRIBER"/>
+    <uses-permission android:name="android.car.permission.CAR_DIAGNOSTICS"/>
+    <uses-permission android:name="android.car.permission.CLEAR_CAR_DIAGNOSTICS"/>
+    <uses-permission android:name="android.car.permission.STORAGE_MONITORING"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <permission android:name="com.xiaopeng.xmart.camera.permission.WRITE_CONTENTPROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.read"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.write"/>
+    <uses-permission android:name="xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.xiaopeng.permission.SERVICE"/>
+    <uses-permission android:name="com.xiaopeng.permission.BROADCAST"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.xiaopeng.caraccount.permission.SYNC"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.xiaopeng.permission.SYSTEM_DELEGATE"/>
+    <uses-permission android:name="com.xiaopeng.permission.IPC"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_applist_video" android:name="com.xiaopeng.xmart.camera.CameraApp" android:persistent="true" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:extractNativeLibs="false" android:usesCleartextTraffic="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="com.xiaopeng.xmart.camera.MainActivity" android:launchMode="singleInstance" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.xiaopeng.xmart.camera.CleanCacheReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.intent.action.CLEAN_APP_CACHES"/>
+                <action android:name="com.xiaopeng.intent.action.CLEAN_CAMERA_APP_CACHES"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.xiaopeng.metadata.shared.display.state" android:value="1"/>
+        <service android:name="com.xiaopeng.lib.framework.ipcmodule.AgentService" android:permission="com.xiaopeng.permission.SERVICE" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.ipc.AgentService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.xiaopeng.xmart.camera.LaunchCameraBroadcast" android:enabled="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xui.businessevent"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.xiaopeng.xmart.camera.CameraAppService" android:enabled="false" android:exported="false">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xmart.cameraservice"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="SPEECH_OBSERVER_CarCameraApp" android:value="com.xiaopeng.xmart.camera.SpeechOverAllObserverCarCamera"/>
+        <meta-data android:name="SPEECH_EVENTS_CarCameraApp" android:value="command://camera.overall.on|command://camera.rear.take|command://camera.rear.record                    |command://camera.front.take|command://camera.front.record|command://camera.left.take                    |command://camera.left.record|command://camera.right.take|command://camera.right.record                    |command://camera.left.on|command://camera.right.on|command://camera.rear.on.new|command://camera.front.on                    |command://camera.top.off|command://camera.top.on|command://camera.top.take                    |command://camera.top.rotate.left|command://camera.top.rotate.right|command://camera.top.rotate.front                    |command://camera.top.rotate.rear|command://camera.three.d.on                    |command://camera.three.d.off|command://camera.transparent.chassis.on|command://camera.transparent.chassis.off                    |command://camera.photoalbum.open                    |camera.support.top.status|camera.support.panoramic.status                    |camera.support.rear.status|camera.business.status|camera.three.d.support                    |camera.transparent.chassis.support|camera.is.recording"/>
+        <service android:name="com.xiaopeng.drivingimageassist.ForegroundService" android:exported="false"/>
+        <activity android:theme="@style/DIGAppTheme" android:name="com.xiaopeng.drivingimageassist.DIGActivity" android:exported="true">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="320"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.xiaopeng.drivingimageassist.test.DebugActivity" android:exported="true"/>
+        <receiver android:name="com.xiaopeng.drivingimageassist.NRACtrlReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.drivingimageassist.NRA"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="org.eclipse.paho.android.service.MqttService"/>
+        <provider android:name="com.xiaopeng.lib.framework.netchannelmodule.common.ContextNetStatusProvider" android:exported="false" android:authorities="com.xiaopeng.xmart.camera.netmodule.provider"/>
+        <provider android:name="com.xiaopeng.lib.apirouter.server.ApiPublisherProvider" android:exported="true" android:authorities="com.xiaopeng.xmart.camera.api.publisher"/>
+    </application>
+</manifest>

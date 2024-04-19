@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.drivingimageassist.ui.RootView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ly_main" android:layout_width="1080dp" android:layout_height="1920dp">
+    <com.xiaopeng.drivingimageassist.ui.CameraView android:layout_gravity="center_horizontal" android:id="@+id/ly_camera_content" android:background="#88ffffff" android:layout_width="1032dp" android:layout_height="580dp" android:layout_marginTop="202dp">
+        <TextureView android:id="@+id/gl_camera" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.xiaopeng.drivingimageassist.ui.CameraView>
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/btn_close" android:layout_marginTop="216dp" android:layout_marginStart="38dp" style="@style/XButton.Icon.Large.Close"/>
+</com.xiaopeng.drivingimageassist.ui.RootView>

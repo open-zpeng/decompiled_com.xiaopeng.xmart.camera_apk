@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <view id="camera_control_panel" attr="background" value="@color/camera_operate_container_color"/>
+    <view id="record_time_container" attr="background" value="@drawable/video_record_counter_bg"/>
+
+</theme>
